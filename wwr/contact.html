@@ -23,6 +23,7 @@
   </header>
   <main>
     <h1>Contact Us</h1>
+
     <section class="company-info">
       <h2>Our Office</h2>
       <p><strong>Whitewater Rafting Adventures</strong><br>
@@ -39,42 +40,52 @@
         loading="lazy">
       </iframe>
     </section>
+
     <section class="employee-profiles">
       <h2>Meet Our Team</h2>
       <figure>
-        <img src="images/employee1.jpg" alt="Employee 1">
+        <img src="images/employee1.jpg" alt="Jordan - Lead Guide">
         <figcaption>Jordan – Lead Guide</figcaption>
       </figure>
       <figure>
-        <img src="images/employee2.jpg" alt="Employee 2">
+        <img src="images/employee2.jpg" alt="Alex - Customer Support">
         <figcaption>Alex – Customer Support</figcaption>
       </figure>
       <figure>
-        <img src="images/employee3.jpg" alt="Employee 3">
+        <img src="images/employee3.jpg" alt="Sam - River Safety">
         <figcaption>Sam – River Safety</figcaption>
       </figure>
     </section>
+
     <section class="contact-form">
       <h2>Send Us a Message</h2>
       <form action="thanks.html" method="post">
         <label for="name">Full Name:</label>
         <input type="text" id="name" name="name" required>
+
         <label for="email">Email Address:</label>
         <input type="email" id="email" name="email" required>
-        <p>Purpose of Message:</p>
-        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
-        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
-        <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+
+        <fieldset>
+          <legend>Purpose of Message:</legend>
+          <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
+          <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+          <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+        </fieldset>
+
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="5" required></textarea>
+
         <label>
           <input type="checkbox" name="subscribe" value="yes">
           Please subscribe me to the monthly newsletter
         </label>
+
         <button type="submit">Send Message</button>
       </form>
     </section>
   </main>
+
   <footer>
     <nav class="socialmedia">
       <a href="https://facebook.com" target="_blank">
